@@ -1,0 +1,58 @@
+import { CategoryInfo } from '@/types/product';
+
+export const categoriesData: CategoryInfo[] = [
+  {
+    id: 'smartphones',
+    name: 'الهواتف الذكية',
+    nameEn: 'Smartphones',
+    description: 'أحدث الهواتف الرائدة والمتوسطة مع أقوى المعالجات وشاشات فائقة الدقة',
+    iconName: 'Smartphone',
+    itemCount: 8,
+    imageUrl: 'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'laptops',
+    name: 'الحواسيب المحمولة',
+    nameEn: 'Laptops',
+    description: 'أجهزة فائقة للأعمال وصناع المحتوى ومحترفي الألعاب ببطاقات رسومية متطورة',
+    iconName: 'Laptop',
+    itemCount: 6,
+    imageUrl: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'tablets',
+    name: 'الأجهزة اللوحية',
+    nameEn: 'Tablets',
+    description: 'أجهزة لوحية متطورة للرسم الرقمي، تدوين الملاحظات، والإنتاجية العالية',
+    iconName: 'Tablet',
+    itemCount: 4,
+    imageUrl: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'wearables',
+    name: 'الساعات والأجهزة الذكية',
+    nameEn: 'Smartwatches & Wearables',
+    description: 'متابعة الصحة واللياقة البدنية، تخطيط القلب ومقاومة متقدمة للماء',
+    iconName: 'Watch',
+    itemCount: 4,
+    imageUrl: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'audio',
+    name: 'الصوتيات وسماعات الرأس',
+    nameEn: 'Headphones & Audio',
+    description: 'سماعات إلغاء الضوضاء النشط، نقاء صوتي استثنائي وتقنية الصوت المكاني',
+    iconName: 'Headphones',
+    itemCount: 5,
+    imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'accessories',
+    name: 'الملحقات والشواحن الذكية',
+    nameEn: 'Tech Accessories',
+    description: 'شواحن GaN فائقة السرعة، قواعد شحن مغناطيسية، ولوحات مفاتيح ميكانيكية',
+    iconName: 'Zap',
+    itemCount: 4,
+    imageUrl: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80',
+  },
+];
